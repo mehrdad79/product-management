@@ -26,7 +26,7 @@ This is a simple Product Management Application that allows users to create, vie
 1. Clone the repository:
    ```bash
    git clone https://github.com/mehrdad79/product-management.git
-   cd product-management-app
+   cd product-management
 2. stall dependencies:
    ```bash
    npm install
