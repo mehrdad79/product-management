@@ -36,7 +36,7 @@ This is a simple Product Management Application that allows users to create, vie
 4. Open your browser and navigate to:
    ```arduino
    http://localhost:4200
-##Usage
+## Usage
 - **Home Page:** Displays the list of products.
 - **Create Product:** Navigate to /create to add a new product.
 - **Edit Product:** Click the edit button to modify a product.
