@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from '../product.service';
-import { CommonModule, getLocaleMonthNames } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
@@ -15,17 +14,17 @@ import { MatButtonModule } from '@angular/material/button';
 export class ProductDetailsComponent implements OnInit {
   productId!: number;
   product: any;
-  router: any;
 
   constructor(
     private route: ActivatedRoute,
+    private router: Router,
     private productService: ProductService
   ) {}
-  
-   GoHome() {
+
+  GoHome() {
     this.router.navigate(['/']);
   }
-  
+
   ngOnInit() {
     this.route.params.subscribe((params) => {
       this.productId = +params['id'];
