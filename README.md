@@ -1,59 +1,57 @@
-# ProductManagement
+# Product Management Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+A web application built with Angular to manage products. This project uses Angular Material for UI design and LocalStorage for persistent data storage.
 
-## Development server
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Screenshots](#screenshots)
+- [License](#license)
 
-To start a local development server, run:
+## Project Overview
+This is a simple Product Management Application that allows users to create, view, edit, and delete products. The application stores product data in the browser's LocalStorage, ensuring the data persists even after refreshing or closing the browser.
 
-```bash
-ng serve
-```
+## Features
+- **Create Product**: A form with validation to add new products.
+- **View Products**: Displays a list of products in a Material table.
+- **Edit Product**: Allows editing product details.
+- **Delete Product**: Deletes a product with confirmation.
+- **View Product Details**: Displays full details of a selected product.
+- **LocalStorage Integration**: Data is stored and retrieved from LocalStorage.
+- **Responsive Design**: Built using Angular Material for a responsive UI.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Technologies Used
+- **Angular**: Framework for building the web application.
+- **Angular Material**: For UI components.
+- **TypeScript**: Type-safe language for development.
+- **SCSS**: For styling.
+- **LocalStorage**: To persist product data.
 
-## Code scaffolding
+## Installation
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mehrdad79/product-management.git
+   cd product-management-app
+2. stall dependencies:
+   ```bash
+   npm install
+3. Start the development server:
+   ```bash
+   ng serve
+4. Open your browser and navigate to:
+   ```arduino
+   http://localhost:4200
+##Usage
+- **Home Page:** Displays the list of products.
+- **Create Product:** Navigate to /create to add a new product.
+- **Edit Product:** Click the edit button to modify a product.
+- **View Product Details:** Click on a product row to see more details.
+- **Delete Product:** Use the delete button to remove a product after confirmation.
+## Contact
+- **Email**: [mehrdadkarimi79@gmail.com](mailto:mehrdadkarimi79@gmail.com)
+- **Telegram**: [@TheyCallMeMehri](https://t.me/TheyCallMeMehri)
