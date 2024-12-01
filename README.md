@@ -2,16 +2,6 @@
 
 A web application built with Angular to manage products. This project uses Angular Material for UI design and LocalStorage for persistent data storage.
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Screenshots](#screenshots)
-- [License](#license)
-
 ## Project Overview
 This is a simple Product Management Application that allows users to create, view, edit, and delete products. The application stores product data in the browser's LocalStorage, ensuring the data persists even after refreshing or closing the browser.
 
